@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT License"
+
+[[mods]]
+modId="quick_message"
+version="1.0.0"
+displayName="quick message"
+displayURL="https://modrinth.com/project/quick-message"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="Drwhomust"
+description="This is a fast quick chat feature!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.quick_message]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.1.2.95,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.quick_message]]
+    modId="minecraft"
+    type="required"
+    versionRange="[26.1.2]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

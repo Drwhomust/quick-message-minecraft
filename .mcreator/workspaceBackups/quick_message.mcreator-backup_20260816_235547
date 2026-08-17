@@ -1,0 +1,71 @@
+{
+  "mod_elements": [
+    {
+      "name": "HelloOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hello_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/xyz/drwhomust/quickmessage/procedures/HelloOnKeyPressedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Hello",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hello",
+      "metadata": {
+        "files": [
+          "src/main/java/xyz/drwhomust/quickmessage/network/HelloMessage.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "key.quick_message.hello": "Hello Quick Chat"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/xyz/drwhomust/quickmessage/init/QuickMessageModKeyMappings.java",
+      "src/main/java/xyz/drwhomust/quickmessage/QuickMessageMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "quick_message",
+    "modName": "quick message",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-26.1.2",
+    "modElementsPackage": "xyz.drwhomust.quickmessage"
+  },
+  "mcreatorVersion": 202600233518
+}

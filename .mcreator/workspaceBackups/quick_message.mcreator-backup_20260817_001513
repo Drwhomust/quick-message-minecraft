@@ -1,0 +1,199 @@
+{
+  "mod_elements": [
+    {
+      "name": "HelloOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hello_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/xyz/drwhomust/quickmessage/procedures/HelloOnKeyPressedProcedure.java"
+        ]
+      },
+      "path": "~/pro"
+    },
+    {
+      "name": "Hello",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hello",
+      "metadata": {
+        "files": [
+          "src/main/java/xyz/drwhomust/quickmessage/network/HelloMessage.java"
+        ]
+      },
+      "path": "~/keys"
+    },
+    {
+      "name": "WhoAreYouOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "who_are_you_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/xyz/drwhomust/quickmessage/procedures/WhoAreYouOnKeyPressedProcedure.java"
+        ]
+      },
+      "path": "~/pro"
+    },
+    {
+      "name": "WhoAreYou",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "who_are_you",
+      "metadata": {
+        "files": [
+          "src/main/java/xyz/drwhomust/quickmessage/network/WhoAreYouMessage.java"
+        ]
+      },
+      "path": "~/keys"
+    },
+    {
+      "name": "GoodByeOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "good_bye_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/xyz/drwhomust/quickmessage/procedures/GoodByeOnKeyPressedProcedure.java"
+        ]
+      },
+      "path": "~/pro"
+    },
+    {
+      "name": "GoodBye",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "good_bye",
+      "metadata": {
+        "files": [
+          "src/main/java/xyz/drwhomust/quickmessage/network/GoodByeMessage.java"
+        ]
+      },
+      "path": "~/keys"
+    },
+    {
+      "name": "Nice",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nice",
+      "metadata": {
+        "files": [
+          "src/main/java/xyz/drwhomust/quickmessage/network/NiceMessage.java"
+        ]
+      },
+      "path": "~/keys"
+    },
+    {
+      "name": "NiceOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nice_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/xyz/drwhomust/quickmessage/procedures/NiceOnKeyPressedProcedure.java"
+        ]
+      },
+      "path": "~/pro"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "key.quick_message.hello": "Hello Quick Chat",
+      "key.quick_message.who_are_you": "Who Are You",
+      "key.quick_message.good_bye": "Good Bye",
+      "key.quick_message.nice": "Nice"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/xyz/drwhomust/quickmessage/init/QuickMessageModKeyMappings.java",
+      "src/main/java/xyz/drwhomust/quickmessage/QuickMessageMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "pro",
+        "children": []
+      },
+      {
+        "name": "keys",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "quick_message",
+    "modName": "quick message",
+    "version": "1.0.0",
+    "description": "This is a fast quick chat feature!",
+    "author": "Drwhomust",
+    "websiteURL": "https://modrinth.com/project/quick-message",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-26.1.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "xyz.drwhomust.quickmessage"
+  },
+  "mcreatorVersion": 202600233518
+}
