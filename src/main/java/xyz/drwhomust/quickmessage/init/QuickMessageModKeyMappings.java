@@ -61,7 +61,7 @@ public class QuickMessageModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
-	public static final KeyMapping NICE = new KeyMapping("key.quick_message.nice", GLFW.GLFW_KEY_K, KeyMapping.Category.MOVEMENT) {
+	public static final KeyMapping NICE = new KeyMapping("key.quick_message.nice", GLFW.GLFW_KEY_K, KeyMapping.Category.MULTIPLAYER) {
 		private boolean isDownOld = false;
 
 		@Override

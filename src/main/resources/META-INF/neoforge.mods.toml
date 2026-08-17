@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="quick_message"
-version="1.0.0"
+version="1.0.1"
 displayName="quick message"
 displayURL="https://modrinth.com/project/quick-message"
 credits="Created using mod maker MCreator - https://mcreator.net/about"

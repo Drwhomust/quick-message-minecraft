@@ -4,7 +4,7 @@
   "definition": {
     "triggerKey": "K",
     "keyBindingName": "Nice",
-    "keyBindingCategoryKey": "movement",
+    "keyBindingCategoryKey": "multiplayer",
     "onKeyPressed": "NiceOnKeyPressed"
   }
 }
